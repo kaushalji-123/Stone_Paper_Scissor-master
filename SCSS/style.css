@@ -6,11 +6,12 @@
 
 section {
   height: 100vh;
-  background: -webkit-linear-gradient(90deg, #190635 0%, rgb(82, 22, 128) 30%, #af79de 90%);
+  background: -webkit-linear-gradient(90deg, #190635 0%, rgb(82, 22, 128) 20%, #a770d6 70%);
   font-family: sans-serif;
 }
 
 .score {
+  width: 90%;
   color: #f6f6f6;
   height: 20vh;
   display: flex;
@@ -25,6 +26,23 @@ section {
   text-align: center;
   padding: 10px;
   font-size: 25px;
+}
+
+.logo {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.logo img {
+  height: 200px;
+  width: 200px;
+}
+
+.score-both {
+  margin-right: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .intro button,
